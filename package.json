@@ -1,0 +1,40 @@
+{
+  "name": "npm-scripts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsemach/npm-scripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "src"
+  ],
+  "bin": {
+    "types": "./src/types.sh",
+    "publish": "./src/publish.sh",
+    "install": "./src/install.sh",
+    "uninstall": "./src/uninstall.sh",
+    "update": "./src/update.sh",
+    "npmlogin": "./src/npmlogin.sh",
+    "generate-sdk": "./src/generate-sdk.sh",
+    "set-tag": "./src/set-tag.sh",
+    "pipeline-clean.sh": "./src/pipeline/pipeline-clean.sh",
+    "pipeline-install.sh": "./src/pipeline/pipeline-install.sh",
+    "pipeline-build.sh": "./src/pipeline/pipeline-build.sh",
+    "pipeline-deploy.sh": "./src/pipeline/pipeline-deploy.sh",
+    "pipeline-docker.sh": "./src/pipeline/pipeline-docker.sh",
+    "pipeline-docs.sh": "./src/pipeline/pipeline-docs.sh",
+    "pipeline-lambda-report.sh": "./src/pipeline/pipeline-lambda-report.sh",
+    "pipeline-python-clean.sh": "./src/pipeline/python/pipeline-python-clean.sh",
+    "pipeline-python-install.sh": "./src/pipeline/python/pipeline-python-install.sh",
+    "pipeline-python-build.sh": "./src/pipeline/python/pipeline-python-build.sh",
+    "pipeline-python-deploy.sh": "./src/pipeline/python/pipeline-python-deploy.sh"
+  }
+}
