@@ -78,6 +78,6 @@ mkdir ${TYPEDIR}
 copyFiles
 packageDotJson > ${TYPEDIR}/package.json
 
-(cd ${TYPEDIR}; npm publish --registry $NPM_PRIVATE_REGISTRY)
+(cd ${TYPEDIR}; npm publish --access=public)
 
 exit $?

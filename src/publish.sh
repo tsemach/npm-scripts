@@ -136,7 +136,7 @@ fi
 
 _npmlogin private
 echo "use $NPM_PRIVATE_REGISTRY to publish to .."
-npm publish --registry $NPM_PRIVATE_REGISTRY
+npm publish --access=public
 ret=$?
 
 popd > /dev/null
