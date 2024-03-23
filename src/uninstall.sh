@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 
 DIST=_dist
-NPM_PRIVATE_ARTIFACT=${NPM_PRIVATE_ARTIFACT:=ims-cloud-npm-dev-local}
-NPM_PUBLIC_ARTIFACT=${NPM_PUBLIC_ARTIFACT:=ims-cloud-npm-virtual}
-
-NPM_PRIVATE_REGISTRY=${NPM_PRIVATE_REGISTRY:=https://artifactory.sddc.mobileye.com/artifactory/api/npm/${NPM_PRIVATE_ARTIFACT}}
-NPM_PUBLIC_REGISTRY=${NPM_PUBLIC_REGISTRY:=https://artifactory.sddc.mobileye.com/artifactory/api/npm/${NPM_PUBLIC_ARTIFACT}}
 
 function usage() {
   echo ""

@@ -1,5 +1,5 @@
 {
-  "name": "npm-scripts",
+  "name": "@tsemach/npm-scripts",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
